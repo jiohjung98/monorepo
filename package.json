@@ -2,7 +2,7 @@
   "name": "monorepo-example",
   "workspaces": {
     "packages": [
-      "packages/*"
+      "package/*"
     ]
   },
   "packageManager": "yarn@4.7.0"
