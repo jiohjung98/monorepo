@@ -12,11 +12,16 @@ yarn classic(yarn v1)과 yarn berry(yarn v2)는 버전 차이가 많이 나므�
 ```
 $ yarn set version berry
 ```
+cf) `yarn set version berry` 명령어 부분에서 `error: unable to get local issuer certificate` 이 오류가 발생한다면,
+![image](https://github.com/user-attachments/assets/c9beec70-de3c-43b4-9bfb-07e9dfc32c76)
+```
+$ yarn config set strict-ssl false
+```
+위 사진처럼 명령어 입력 후 재시도<br/> <br/> <br/>
 이후
 ```
 $ yarn -v
 ```
-
 명령어를 통해 yarn 2.0 이상의 버전이 설치되었는지 확인
 (본인의 경우 yarn@4.7이 설치됨)
 <img width="555" alt="스크린샷 2025-03-07 오후 4 13 19" src="https://github.com/user-attachments/assets/929079cb-85a7-4064-9334-d02f1628c2e9" />
