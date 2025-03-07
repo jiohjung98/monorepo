@@ -569,6 +569,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@monorepo/common@npm:*, @monorepo/common@workspace:package/common":
+  version: 0.0.0-use.local
+  resolution: "@monorepo/common@workspace:package/common"
+  languageName: unknown
+  linkType: soft
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -1601,6 +1607,7 @@ __metadata:
   resolution: "front-mono@workspace:package/front-mono"
   dependencies:
     "@eslint/js": "npm:^9.21.0"
+    "@monorepo/common": "npm:*"
     "@types/react": "npm:^19.0.10"
     "@types/react-dom": "npm:^19.0.4"
     "@vitejs/plugin-react": "npm:^4.3.4"
