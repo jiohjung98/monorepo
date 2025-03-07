@@ -177,6 +177,7 @@ index.ts 파일에는 front-mono와 common 프로젝트에서 코드를 공유�
 const str: string = "monorepo를 통해 공유할 변수";
 export default str;
 ```
+<img width="1149" alt="스크린샷 2025-03-07 오후 4 53 57" src="https://github.com/user-attachments/assets/8fca875e-d6de-4dce-af2b-900f54071f9b" />
 
 common 폴더 구조 <br/>
 📦common <br/>
@@ -222,7 +223,9 @@ function App() {
     )
 }
 ```
-<br/>
+<img width="1152" alt="스크린샷 2025-03-07 오후 4 55 11" src="https://github.com/user-attachments/assets/ae45af00-3f0b-4102-a77c-66aeaccc373b" />
+
+<br/><br/>
 
 위와 같이 @monorepo/common으로부터 선언해준 변수 str을 import해 사용할 경우,
 <img width="1725" alt="스크린샷 2025-03-07 오후 4 38 58" src="https://github.com/user-attachments/assets/fde3e427-0f9c-4ba3-9af7-6c01968186b9" />
